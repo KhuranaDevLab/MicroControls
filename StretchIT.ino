@@ -22,9 +22,9 @@
   // Rotary Encoder Inputs
     const byte CLK = 12;//B00010000;// 2; //using external hardware interrupt
     const byte DT = 16;//B00100000; //3; // do not change these defined pins
-    const byte SW = 27;//B00100000;// 4;
+    const byte SW = 27;//B00100000;// 4; // 12, 16, 27 are used for esp32
 
-    unsigned int X1 = 0;
+    unsigned int X1 = 0; //variables during calculations
     unsigned int X2 = 0;
     bool Fast = false;
     int Speed;
