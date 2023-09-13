@@ -1,0 +1,4 @@
+//This code is developed by Gulshan Khurana//
+//This code includes a stepper motor to run according to the input parameters taken by rotary encoder KY-40//
+//The other components are 0.9in OLED display, TMC2209 stepper motor driver and MPU6050 sensor//
+//This code is developed properly for ATMEL mega 2560 microcontroller//
